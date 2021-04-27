@@ -1,0 +1,19 @@
+.jewellery {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+}
+
+.jewellery__row {
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.jewellery__row > div {
+    margin: 2px;
+    border: 1px solid rgba(100, 3, 3, 0.705);
+}
